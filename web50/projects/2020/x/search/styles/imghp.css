@@ -1,0 +1,105 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-family: arial, sans-serif;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+nav {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	margin-right: 30px;
+	font-size: 13px;
+	line-height: 24px;
+	font-weight: 400;
+}
+
+nav a {
+	margin-top: 20px;
+	color: rgb(0,0,0, 0.9);
+	cursor: pointer;
+	}
+	
+nav a:hover {
+	text-decoration: underline;
+	font-size: 15px;
+	opacity: .85;
+}
+
+.subm	{
+	margin-top: 20px;
+}
+
+.adv {
+	margin-right: 20px;
+}
+
+.pict {
+	flex: 1;
+}
+
+.pict .img {
+	display: block;
+	margin: 0px auto;
+	margin-top: 200px;
+}
+
+.form {
+	width: 580px;
+	margin: 0px auto;
+	position: relative;
+	margin-top: -8px;
+	text-align: center;
+}
+
+.form .typ {
+	display: block;
+	border: 1px solid #ddd;
+	color: rgba(0,0,0, 0,8);
+	font-size: 16px;
+	padding: 13px;
+	padding-left: 45px;
+	border-radius: 25px;
+	width: 100%;
+	transition: box-shadow 100ms;
+	outline: none;
+}
+
+.form .typ:hover {
+	border: 1px solid #fff;
+	box-shadow: 0 0 2px rgba(0,0,0, 0.5);
+}
+
+.look {
+	border: 1px solid transparent;
+	padding: 9px 15px;
+	color: #666;
+	font-size: 14px;
+	border-radius: 4px;
+	display: inline-block;
+	margin-right: 10px;
+	margin-top: 28px;
+	outline: none;
+	cursor: pointer;
+	transition: border-color 100ms;
+}
+.look:hover {
+	border: 1px solid #aaa;
+}
+
+.srch {
+	width: 42px;
+	position: absolute;
+	top: 3px;
+	right: 8px;
+	border-radius: 50%;
+	background-color: ;
+}
